@@ -23,8 +23,8 @@ namespace GameInnitBruv
 
         protected override void Initialize()
         {
-            dvdRect = new Rectangle(100, 100, 50, 50);
-            base.Initialize();
+            dvdRect = new Rectangle(100, 100, 50, 50); //Spawns logo at X=100 Y= 100
+            base.Initialize();                         // with size of 50x50 pixels
         }
 
         protected override void LoadContent()
